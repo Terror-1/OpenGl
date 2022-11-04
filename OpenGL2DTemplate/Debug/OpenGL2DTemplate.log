@@ -1,0 +1,3 @@
+﻿  OpenGL2DTemplate.cpp
+OpenGL2DTemplate.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
+  OpenGL2DTemplate.vcxproj -> E:\GUC-He15931593\Semester 7\DMET 502 Graphics\New\OpenGl\OpenGL2DTemplate\Debug\OpenGL2DTemplate.exe
