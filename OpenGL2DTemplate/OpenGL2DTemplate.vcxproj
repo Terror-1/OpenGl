@@ -85,7 +85,11 @@
     <ClCompile Include="OpenGL2DTemplate.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <Media Include="explosion.wav" />
     <Media Include="shoot.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="background.bmp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

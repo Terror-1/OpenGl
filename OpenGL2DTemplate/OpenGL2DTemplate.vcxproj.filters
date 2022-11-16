@@ -26,5 +26,13 @@
     <Media Include="shoot.wav">
       <Filter>Source Files</Filter>
     </Media>
+    <Media Include="explosion.wav">
+      <Filter>Source Files</Filter>
+    </Media>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="background.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
   </ItemGroup>
 </Project>

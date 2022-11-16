@@ -1,3 +1,13 @@
 ﻿  OpenGL2DTemplate.cpp
+E:\GUC-He15931593\Semester 7\DMET 502 Graphics\New\OpenGl\OpenGL2DTemplate\OpenGL2DTemplate.cpp(51,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\GUC-He15931593\Semester 7\DMET 502 Graphics\New\OpenGl\OpenGL2DTemplate\OpenGL2DTemplate.cpp(91,4): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\GUC-He15931593\Semester 7\DMET 502 Graphics\New\OpenGl\OpenGL2DTemplate\OpenGL2DTemplate.cpp(99,4): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\GUC-He15931593\Semester 7\DMET 502 Graphics\New\OpenGl\OpenGL2DTemplate\OpenGL2DTemplate.cpp(319,22): warning C4018: '<': signed/unsigned mismatch
+E:\GUC-He15931593\Semester 7\DMET 502 Graphics\New\OpenGl\OpenGL2DTemplate\OpenGL2DTemplate.cpp(324,22): warning C4018: '<': signed/unsigned mismatch
+E:\GUC-He15931593\Semester 7\DMET 502 Graphics\New\OpenGl\OpenGL2DTemplate\OpenGL2DTemplate.cpp(328,21): warning C4018: '<': signed/unsigned mismatch
+E:\GUC-He15931593\Semester 7\DMET 502 Graphics\New\OpenGl\OpenGL2DTemplate\OpenGL2DTemplate.cpp(335,21): warning C4018: '<': signed/unsigned mismatch
+E:\GUC-He15931593\Semester 7\DMET 502 Graphics\New\OpenGl\OpenGL2DTemplate\OpenGL2DTemplate.cpp(346,21): warning C4018: '<': signed/unsigned mismatch
+E:\GUC-He15931593\Semester 7\DMET 502 Graphics\New\OpenGl\OpenGL2DTemplate\OpenGL2DTemplate.cpp(347,21): warning C4018: '<': signed/unsigned mismatch
+E:\GUC-He15931593\Semester 7\DMET 502 Graphics\New\OpenGl\OpenGL2DTemplate\OpenGL2DTemplate.cpp(355,21): warning C4018: '<': signed/unsigned mismatch
 OpenGL2DTemplate.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
   OpenGL2DTemplate.vcxproj -> E:\GUC-He15931593\Semester 7\DMET 502 Graphics\New\OpenGl\OpenGL2DTemplate\Debug\OpenGL2DTemplate.exe
