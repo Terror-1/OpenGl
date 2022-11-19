@@ -38,10 +38,13 @@ std::vector<std::pair<int, int>> enemyFirepositions;
 int toFire = 0;
 int colorPlayer = 1;
 int r = 5;
-int powerX = 5+(rand()%(300-5+1));
+int powerX = 5+(rand()%(290-5+1));
 int powerY = 5+(rand() % (200-5+1)) ;
 int counter = 600;
+int counter2 = 700;
+int toappear = 500;
 bool powerUp = false;
+bool removeTimeFlag = false;
 void Display() {
 	if (status == 0) {
 		glClear(GL_COLOR_BUFFER_BIT);
@@ -259,10 +262,14 @@ void reset() {
 	 colorPlayer = 1;
 	 r = 5;
 	 toFire = 0;
-	 powerX = 5 + (rand() % (300 - 5 + 1));
+	 powerX = 5 + (rand() % (290 - 5 + 1));
 	 powerY = 5 + (rand() % (200 - 5 + 1));
 	 counter = 600;
 	 powerUp = false;
+	 counter2 = 700;
+	 toappear = 500;
+	 powerUp = false;
+	 removeTimeFlag = false;
 	 glutTimerFunc(0, time, 0);
 }
 bool checkCollison(int x , int y) {
@@ -361,18 +368,36 @@ void time(int val)//timer animation function, allows the user to pass an integer
 		if (powerUp) {
 			counter--;
 		}
+		if (!powerUp && !removeTimeFlag) {
+			counter2--;
+		}
 		if (counter <= 0) {
 			counter = 1000;
+			counter2 = 700;
 			powerUp = false;
-			powerX = 5 + (rand() % (300 - 5 + 1));
+			powerX = 5 + (rand() % (290 - 5 + 1));
 			powerY = 5 + (rand() % (200 - 5 + 1));
 			displayPower = true;
 			colorPlayer = 1.0;
 		}
+		if (counter2 <= 0) {
+			displayPower = false;
+			removeTimeFlag = true;
+			counter2 = 700;
+		}
+		if (removeTimeFlag) {
+			toappear--;
+		}
+		if (toappear <= 0) {
+			removeTimeFlag = false;
+			toappear = 500;
+			powerX = 5 + (rand() % (290 - 5 + 1));
+			powerY = 5 + (rand() % (200 - 5 + 1));
+			displayPower = true;
+		}
 		if (enemyX <= -120) {
 			left = !left;
 		}
-
 		else if (enemyX >= 120) {
 			left = !left;
 		}
