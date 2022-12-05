@@ -1,0 +1,5 @@
+﻿  OpenGLMeshLoader19.cpp
+E:\GUC-He15931593\Semester 7\DMET 502 Graphics\labs\OpenGl\worldCup\TextureBuilder.h(27,52): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+E:\GUC-He15931593\Semester 7\DMET 502 Graphics\labs\OpenGl\worldCup\TextureBuilder.h(28,52): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+GLTexture.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
+  OpenGLMeshLoader.vcxproj -> E:\GUC-He15931593\Semester 7\DMET 502 Graphics\labs\OpenGl\worldCup\Debug\OpenGLMeshLoader19.exe
